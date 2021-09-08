@@ -109,3 +109,13 @@ $(document).ready(function() {
   });
 
 });
+
+/* ========== NEW JS ==========*/ 
+const articleMainImg = document.querySelector('.page-article__item img');
+
+
+window.addEventListener('scroll', function(){
+  let value = window.scrollY;
+
+  articleMainImg.style.top = value * -0.1 + 'px';
+});
