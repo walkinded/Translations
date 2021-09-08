@@ -2891,6 +2891,10 @@ article table tbody tr td:nth-child(2) {
   color: #baa87d;
 }
 
+.news-side__wrap .news-page__item {
+  margin: 0px 0px 35px 0px;
+}
+
 
 @media screen and (max-width: 1439px) {
   .page-article__body {
@@ -2905,6 +2909,12 @@ article table tbody tr td:nth-child(2) {
   }
   .news-side__wrap {
     flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+  }
+  .news-side__wrap .news-page__item {
+    flex: 1 1 25%;
+    margin: 0 0 30px;
   }
 }
 
