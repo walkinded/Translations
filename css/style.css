@@ -2618,6 +2618,7 @@ body._no-scroll {
   align-items: center;
   color: #999999;
   padding: 0;
+  width: max-content;
 }
 .breadcrumb ol li {
   margin-right: 15px;
@@ -2931,6 +2932,9 @@ article table tbody tr td:nth-child(2) {
     width: 100%;
     height: max-content;
   }
+  article table tr th:first-child, article table tr td:first-child {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 640px) { 
@@ -2947,6 +2951,9 @@ article table tbody tr td:nth-child(2) {
   article ul,
   article ol {
     padding: 0;
+  }
+  article table tr th:first-child, article table tr td:first-child {
+    width: 150px;
   }
 }
 
