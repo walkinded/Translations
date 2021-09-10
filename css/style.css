@@ -2612,6 +2612,9 @@ body._no-scroll {
 
   overflow-x: scroll;
 }
+.breadcrumb::-webkit-scrollbar {
+  width: 0;
+}
 .breadcrumb ol {
   font-size: 13px;
   display: flex;
@@ -2838,6 +2841,9 @@ article ol li::before {
 .table__wrap {
   width: 100%;
   overflow-x: scroll;
+}
+.table__wrap ::-webkit-scrollbar {
+  width: 0;
 }
 
 article table {
