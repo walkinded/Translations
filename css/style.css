@@ -2842,10 +2842,15 @@ article ol li::before {
   width: 100%;
   overflow-x: scroll;
 }
-.table__wrap ::-webkit-scrollbar {
+.table__wrap::-webkit-scrollbar {
   width: 0;
 }
 
+article table {
+  margin-top: 30px;
+  width: max-content;
+  border-collapse: collapse;
+}
 article table {
   margin-top: 30px;
   width: max-content;
